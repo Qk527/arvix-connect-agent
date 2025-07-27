@@ -67,7 +67,7 @@ The agent has three main functions:
 
 4. **Run the agent**
    ```bash
-   python main.py
+   python src/main.py
    ```
 
 ## 📖 Usage Examples
@@ -143,7 +143,7 @@ You can modify these in `src/agent.py`:
 arxiv-learning-agent/
 ├── src/
 │   └── agent.py              # Main agent class
-├── main.py                   # CLI interface
+│   └── main.py              # CLI interface
 ├── requirements.txt          # Python dependencies
 ├── example.env              # Environment variables template
 ├── README.md               # This file

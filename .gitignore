@@ -27,9 +27,7 @@ wheels/
 *.egg
 
 # Virtual environments
-venv/
-env/
-ENV/
+.venv/*
 
 # IDE
 .vscode/
@@ -43,3 +41,6 @@ Thumbs.db
 
 # Logs
 *.log 
+
+# Git
+.git-credentials
