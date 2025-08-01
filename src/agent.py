@@ -1,13 +1,12 @@
 import os
 import logging
-from typing import List, Dict, Optional
+from typing import Dict
 from datetime import datetime
 
 from langchain_community.retrievers import ArxivRetriever
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.schema import Document
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
